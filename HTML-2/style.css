@@ -1,0 +1,112 @@
+body{
+
+}
+
+.container{
+	background-image: url("../HTML_ASSETS/bg-img.png");
+	background-size: cover;	
+}
+.navbar{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	background-size: cover;
+	margin: 0;
+	position: sticky;
+}
+
+.navbar li {
+	padding: 20px;
+	list-style: none;
+	display: inline-flex;
+	justify-content: flex-end;
+	align-self: flex-end;
+}
+.navbar li a{
+	text-decoration: none;
+	color: #19345E;
+}
+.navbar li a:hover{
+	color: #F47522;
+}
+.navbar img{
+	margin-right: 45rem;
+}
+.content{
+
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+.content .label {
+	top: 289px;
+	left: 556px;
+	width: 520px;
+	height: 173px;
+	opacity: 1;
+	margin: 39px;
+}
+.pic img{
+	top: 243px;
+	left: 125px;
+	width: 355px;
+	height: 355px;
+	border-radius: 50%;
+}
+.label h1, h3, h4{
+	color: #19345E;
+	font-family: Roboto;
+}
+.label button{
+	top: 493px;
+	left: 556px;
+	width: 150px;
+	height: 43px;
+	background: #F47522 0% 0% no-repeat padding-box;
+	border: 2px solid #F47522;
+	opacity: 1;
+	border-radius: 20px;
+}
+.label button a{
+	text-decoration: none;
+	color: white;
+}
+
+
+/*ABOUT PAGE*/
+
+.text{
+	margin-left: 5rem;
+	font-family: Roboto;
+	color: #19345E;
+
+}
+.text h1{
+	height: 5rem;
+	background: #F4F7FC 0% 0% no-repeat padding-box;
+	letter-spacing: 0.1rem;
+	width: 100%;
+s	left: 4rem;
+}
+.text h3, table, tr, td {
+	border: 1px solid black;
+	border-collapse: collapse;s
+}
+.footer{
+	margin-top: 2rem;
+	background-color: #19345E;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
